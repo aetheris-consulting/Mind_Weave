@@ -1,0 +1,123 @@
+Quick Run-down 
+---
+
+## Hypnosis Framework Used
+
+MindWeave explicitly uses:
+
+### **Experiential Hypnosis / Tranceplay**
+
+Characteristics:
+- Experiences are *lived*, not imagined
+- Narrative functions as a state control surface
+- Depth is measurable and required
+- Consent, framing, and reversibility are mandatory
+
+Supporting techniques include:
+- Elman-style induction
+- Fractionation
+- Catalepsy testing
+- Number-forgetting
+- Depth stacking (“double it”)
+- BEST-ME narrative loops (Belief, Emotion, Sensation, Thought, Motive, Expectation)
+
+This is **not** stage hypnosis, visualization, or suggestion-only meditation.
+
+---
+
+## What MindWeave Is / Is Not
+
+### MindWeave **IS**
+- Tranceplay-class experiential system
+- State-gated immersive VR
+- Biofeedback-driven
+- Facilitator-supervised
+- Designed for reproducibility and research
+
+### MindWeave **IS NOT**
+- Entertainment VR
+- Autonomous therapy
+- Medical software
+- Psychedelic simulation
+- Unsupervised hypnosis
+
+---
+
+## Hardware Requirements (MVP)
+
+**Required**
+- VR Headset: Meta Quest 2 / 3 (PCVR or standalone)
+- HR / HRV Sensor: Polar H10 (RR-interval capable)
+- Controllers: Standard VR controllers (panic gesture support)
+
+**Optional / Recommended**
+- EEG: Muse S or Muse 2 (bandpower only, non-diagnostic)
+- PC for facilitator dashboard
+- Haptic devices (future work)
+
+---
+
+## Software Components
+
+- VR runtime (Unity or Unreal)
+- Biofeedback ingestion layer (HR / HRV / optional EEG)
+- Safety Monitor (10 Hz evaluation loop)
+- Facilitator Dashboard
+- Narrative Engine (BEST-ME cycles)
+- Scene Modulation System (pace, color, density, audio)
+
+---
+
+## Safety Model (First-Class Feature)
+
+MindWeave includes **automatic safety intervention**:
+
+- Continuous HR / HRV monitoring
+- Caution state → scene softening + facilitator alert
+- Hard-pause → neutral grey environment + exit VO
+- User-initiated panic gesture or safeword
+- Manual facilitator override at all times
+
+The system **assumes some users will go deep** and is designed accordingly.
+
+---
+
+## Typical Session Flow
+
+1. Screening & informed consent
+2. Baseline physiology capture
+3. Suggestibility testing
+4. Hypnotic induction (non-VR)
+5. Depth verification (somnambulism)
+6. VR entry
+7. Narrative + biofeedback loop
+8. Safe exit
+9. Post-session debrief & logging
+
+---
+
+## Ethics & Responsibility
+
+- Human-in-the-loop is mandatory
+- No unsupervised deployment
+- No medical or therapeutic claims
+- Clear contraindications required
+- Participant retains right to stop at any time
+
+MindWeave prioritizes **agency, consent, and reversibility**.
+
+---
+
+## Research Lineage & Validation
+
+MindWeave aligns with and extends:
+- Experiential hypnosis / Tranceplay traditions
+- Lucid dreaming research
+- Biofeedback safety research
+- Human-computer interaction in altered states
+
+See `/docs/research.md` for citations and prior art.
+
+---
+
+## Repository Structure
